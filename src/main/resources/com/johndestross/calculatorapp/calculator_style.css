@@ -1,0 +1,55 @@
+.root { /* Background */
+    -fx-background-color: #202020; /* Dark Gray Background */
+}
+
+.display { /* Calculator Terminal Display */
+    -fx-background-color: #2D2D2D; /* Dark Gray Background */
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-padding: 20; /* Center Text Vertically Middle */
+    -fx-background-radius: 10; /* Rounded Corners */
+}
+
+.operation-display { /* Operation Display in Terminal Display */
+    -fx-text-fill: #BBBBBB;
+    -fx-font-size: 16px;
+    -fx-padding: 0 10 5 10; /* Top, Right, Bottom, Left */
+    -fx-background-color: transparent;
+}
+
+.button { /* Number Buttons */
+    -fx-background-color: #3C3C3C; /* Gray Background */
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-background-radius: 3; /* Rounded Corners */
+    -fx-border-color: transparent;
+    -fx-pref-width: 70;
+    -fx-pref-height: 60;
+}
+
+.button:hover { /* Mouse Over Number Buttons */
+    -fx-background-color: #555555;
+}
+
+.button:pressed { /* Click Number Buttons */
+    -fx-background-color: #2a2a2a;
+}
+
+.button-operator { /* Operator Buttons */
+    -fx-background-color: #0078d7; /* Microsoft Blue */
+    -fx-text-fill: white;
+}
+
+.button-operator:hover { /* Mouse Over Operator Buttons */
+    -fx-background-color: #005fa1;
+}
+
+.button-control { /* Operator Buttons */
+    -fx-background-color: #5C5C5C;
+    -fx-text-fill: white;
+}
+
+.button-control:hover { /* Mouse Over Operator Buttons */
+    -fx-background-color: #777777;
+}
